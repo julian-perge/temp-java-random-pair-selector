@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta/>
+</head>
+<body>
+    <h1>Generated Pairs</h1>
+    <p th:each = "pair : ${generatedPairs}">
+        <p th:text = "${pair.toString()}"></p>
+    </p>
+</body>
+</html>
